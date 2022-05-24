@@ -1,0 +1,66 @@
+.top-pane {
+  display:flex;
+  flex-direction:row;
+  background-color:#595959;
+  gap:10px;
+  margin-top: 30px;
+  height: 345px;
+  padding:2px;
+  width: 100%;
+}
+
+.smallpan {
+  width: 325px;
+}
+
+.main-header {
+  max-width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.center {
+ display: flex;
+}
+
+.refreshIcon {
+  width: 2rem;
+  height: 2rem;
+  left:300px ;
+  position: relative;
+  border-radius:20px;
+  box-shadow: 1px 5px 5px rgba(0,0,0,0.1);
+  padding:5px;
+}
+
+ 
+.frame {
+  border-width: 0px;
+  background: rgba(245,245,245,0.6);
+}
+
+
+.codeIcon {
+  width: 2.25rem;
+  height: 3.25rem;
+  margin-top:25px;
+  margin-right: 15px;
+}
+
+
+#goals {
+  width: 35rem;
+  max-width: 90%;
+  margin: 3rem auto;
+}
+
+#goal-form {
+  width: 30rem;
+  max-width: 90%;
+  margin: 3rem auto;
+  padding: 2rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}

@@ -1,0 +1,75 @@
+.expand {
+  flex-grow: 3;
+  margin-top: 5px;
+}
+
+.shrink {
+  width:100px;
+}
+
+
+.small {
+  width:8%;
+}
+
+.mid {
+  width:46%;
+}
+
+.equal{
+  width: 33%;
+}
+
+.big {
+  width: 88%;
+}
+
+.box {
+}
+
+.header {
+ align-items:center;
+ color:white;
+ background-color:black;
+ border-radius: 5px 5px 0px 0px;
+ height: 10%;
+}
+
+.expandHeader {
+  display: flex;
+  justify-content: space-between;
+   padding: 0px 20px 0px 20px ;	
+
+}
+
+.shrinkHeader {
+  display:flex;
+   justify-content: space-around;
+
+}
+
+.icon {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+.collapse:hover {
+  border: 0.5px solid white;
+  cursor: pointer;
+ }
+
+ .collapse {
+ 	width: 1.15rem;
+ 	height: 1.15rem;
+ 	padding:2px;
+ }
+
+ .collapse svg {
+  width: 0.75rem;
+  height: 0.75rem;
+ }
+
+ .limit {
+  max-width:100%;
+ }
+
